@@ -9,6 +9,7 @@
   "author": "Sajjad Amin",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "peer": "^0.6.1"
   }
 }
