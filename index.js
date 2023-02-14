@@ -3,7 +3,7 @@ const fs = require('fs');
 const { PeerServer } = require('peer');
 const sslEnabled = process.env.SSL_ENABLED === 'true';
 let peerConfig = {
-    port: 9000
+    port: process.env.PORT,
 }
 if (sslEnabled) {
     peerConfig.ssl = {
